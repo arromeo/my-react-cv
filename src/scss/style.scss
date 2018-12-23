@@ -4,7 +4,7 @@ $serif-font: 'Roboto Slab', serif;
 $sans-serif-font: 'Lato', sans-serif;
 $sidebar-text-color: #FFFFFF;
 $sidebar-bg-color: #228B22;
-$skill-section-title-color: #00FF00;
+$skill-title-bg-color: #00FF00;
 
 html, body, #app {
   margin: 0px;
@@ -55,7 +55,7 @@ html, body, #app {
 
       .skill-section {
         .skill-section-title {
-          background-color: $skill-section-title-color;
+          background-color: $skill-title-bg-color;
         }
         .skill-item {
         }
