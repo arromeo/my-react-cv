@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import ReactDOM from "react-dom";
-import Nameplate from '../presentational/Nameplate.jsx';
+import SidebarContainer from './SidebarContainer.jsx';
+import BodyContainer from './BodyContainer.jsx';
 
 class ResumeContainer extends Component {
   constructor() {
@@ -8,12 +9,27 @@ class ResumeContainer extends Component {
     this.state = {
       name: 'Adam Romeo',
       title: 'Junior Web Developer',
+      summary: '',
+      projects: {},
+      experiences: {},
+      educations: {},
+      skills: {},
     };
   }
 
   render() {
     return (
-      <Nameplate name={this.state.name} title={this.state.title} />
+      <div className='resume'>
+        <SidebarContainer
+          name={this.state.name}
+          title={this.state.title}
+          skills={this.state.skills} />
+        <BodyContainer
+          summary={this.state.projects}
+          projects={this.state.projects}
+          experience={this.state.experience}
+          education={this.state.education} />
+      </div>
     );
   }
 }

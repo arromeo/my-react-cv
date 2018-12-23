@@ -2,21 +2,49 @@
 
 $serif-font: 'Roboto Slab', serif;
 $sans-serif-font: 'Lato', sans-serif;
+$sidebar-text-color: #FFFFFF;
+$sidebar-bg-color: #228B22;
 
-.nameplate {
-  margin-top: 0.8rem;
-  margin-left: 0.4rem;
+html, body, #app {
+  margin: 0px;
+  padding: 0px;
+  min-height: 100%;
+  height: 100%;
+}
 
-  .name {
-    font-family: $serif-font;
-    font-size: 2.5em;
-    font-weight: bold;
-    color: #228B22;
-    margin: 0.4rem;
+.main {
+  height: 100%;
+}
+.resume {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  .sidebar {
+    display: flex;
+    background-color: $sidebar-bg-color;
+    width: 325px;
+    height: 100%;
+    .nameplate {
+      margin-top: 0.8rem;
+      margin-left: 0.4rem;
+      
+      .name {
+        font-family: $serif-font;
+        font-size: 2.5em;
+        font-weight: bold;
+        color: $sidebar-text-color;
+        margin: 0.4rem;
+      }
+      .title {
+        font-family: $sans-serif-font;
+        font-size: 1.3em;
+        color: $sidebar-text-color;
+        margin: 0.4rem;
+      }
+    }
   }
-  .title {
-    font-family: $sans-serif-font;
-    font-size: 1.3em;
-    margin: 0.4rem;
+  .resume-body {
+    flex: 1;
+    height: 100%;
   }
 }
