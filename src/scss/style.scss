@@ -4,6 +4,7 @@ $serif-font: 'Roboto Slab', serif;
 $sans-serif-font: 'Lato', sans-serif;
 $sidebar-text-color: #FFFFFF;
 $sidebar-bg-color: #228B22;
+$skill-section-title-color: #00FF00;
 
 html, body, #app {
   margin: 0px;
@@ -19,11 +20,14 @@ html, body, #app {
   display: flex;
   flex-direction: row;
   height: 100%;
+
   .sidebar {
     display: flex;
+    flex-direction: column;
     background-color: $sidebar-bg-color;
     width: 325px;
     height: 100%;
+
     .nameplate {
       margin-top: 0.8rem;
       margin-left: 0.4rem;
@@ -40,6 +44,21 @@ html, body, #app {
         font-size: 1.3em;
         color: $sidebar-text-color;
         margin: 0.4rem;
+      }
+    }
+
+    .skills-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      height: 100%;
+
+      .skill-section {
+        .skill-section-title {
+          background-color: $skill-section-title-color;
+        }
+        .skill-item {
+        }
       }
     }
   }

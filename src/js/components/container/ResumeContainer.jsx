@@ -13,7 +13,11 @@ class ResumeContainer extends Component {
       projects: {},
       experiences: {},
       educations: {},
-      skills: {},
+      skills: {
+        'testing' : ['123', '456'],
+        'another-testing' : ['12', '789'],
+        'third section' : ['more skills', 'leet hack']
+      },
     };
   }
 
