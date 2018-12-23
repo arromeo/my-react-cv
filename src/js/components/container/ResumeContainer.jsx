@@ -7,7 +7,7 @@ class ResumeContainer extends Component {
     super();
     this.state = {
       name: 'Adam Romeo',
-      title: 'Jr Web Developer',
+      title: 'Junior Web Developer',
     };
   }
 
@@ -21,5 +21,3 @@ export default ResumeContainer;
 
 const wrapper = document.getElementById('app');
 wrapper ? ReactDOM.render(<ResumeContainer />, wrapper) : false;
-
-wrapper ? console.log('Exists') : console.log('Does not exist');

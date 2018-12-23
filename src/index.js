@@ -1,3 +1,4 @@
 import ResumeContainer from "./js/components/container/ResumeContainer.jsx";
 
-const styles = require('./scss/style.scss');
+require('./scss/reset.scss');
+require('./scss/style.scss');
