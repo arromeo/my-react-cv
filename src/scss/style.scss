@@ -21,13 +21,15 @@ html, body, .main, #app {
   height: 100%;
 
   .sidebar {
+    position: fixed;
+    height: 100%;
     background-color: $sidebar-bg-color;
     padding-top: 1.5rem;
     width: 325px;
 
     .nameplate {
       margin: 0.8rem 0rem 0.4rem 0.4rem;
-      
+
       .name {
         font-family: $serif-font;
         font-size: 2.5em;
@@ -51,7 +53,7 @@ html, body, .main, #app {
       color: $sidebar-text-color;
       fill: $sidebar-text-color;
 
-      
+
       .contact-line {
         display: flex;
         align-items: center;
@@ -79,14 +81,14 @@ html, body, .main, #app {
     }
 
     .skills-container {
-      
+
       .skill-section {
         padding-top: 10px;
         background-color: $sidebar-bg-color;
-        
+
         .skill-section-title {
           margin: 0px 0px 4px 0px;
-          padding-left: 10px; 
+          padding-left: 10px;
           height: 27px;
           line-height: 27px;
           font-family: $serif-font;
@@ -105,10 +107,11 @@ html, body, .main, #app {
 
   .resume-body {
     display: flex;
+    margin-left: 352px;
     flex: 1;
 
     .column {
-      flex: 0.5;
+      flex: 1;
       padding: 3rem;
 
       .section-container {
@@ -124,7 +127,7 @@ html, body, .main, #app {
           border-bottom-width: 3px;
           border-bottom-color: $sidebar-bg-color;
         }
-  
+
         .section-content {
           font-family: $sans-serif-font;
           margin-top: 1rem;
@@ -135,7 +138,7 @@ html, body, .main, #app {
         .experience-description {
           font-family: $sans-serif-font;
         }
-        
+
         .experience-list {
           margin-top: 1rem;
           margin-left: 1.2rem;
@@ -155,25 +158,25 @@ html, body, .main, #app {
           .experience-left-col {
             flex: 0.5;
           }
-          
+
           .experience-company {
             font-family: $sans-serif-font;
             font-weight: bold;
             margin: 0px;
           }
-          
+
           .experience-content {
             font-family: $sans-serif-font;
             font-size: 0.8rem;
             padding-top: 0.2rem;
             margin: 0px;
           }
-          
+
         }
 
         .education-container {
           margin-top: 1rem;
-          
+
           .education-item {
             padding-bottom: 1rem;
 
@@ -204,10 +207,10 @@ html, body, .main, #app {
           }
         }
       }
-      
+
       .projects-container {
         margin-top: 1rem;
-        
+
         .project {
           font-family: $sans-serif-font;
           margin-bottom: 1.5rem;
@@ -220,7 +223,7 @@ html, body, .main, #app {
               font-weight: bold;
               color: $sidebar-bg-color;
             }
-            
+
             .project-right-col {
               flex: 0.5;
               font-size: 0.8rem;
@@ -228,7 +231,7 @@ html, body, .main, #app {
               text-align: right;
             }
           }
-          
+
           .project-stack {
             font-weight: bold;
             font-size: 0.8rem;

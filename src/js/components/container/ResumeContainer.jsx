@@ -34,10 +34,10 @@ class ResumeContainer extends Component {
         },
         {
           'name': 'Sudoku Solver',
-          'stack': 'Python, Data Structures',
+          'stack': 'Python, Flask, AWS (Elastic Beanstalk), Data Structures',
           'start_date': 'June 2018',
           'end_date': 'July 2018',
-          'description': 'A Sudoku puzzle solver that completes the most difficult puzzles in an average of 50 milliseconds. I became inspired to plan and execute a solution to this problem after reading an introductory computer science book. My solution used a depth-first graph traversal algorithm.'
+          'description': 'A Sudoku puzzle solver that completes the most difficult puzzles in an average of 50 milliseconds. I became inspired to plan and execute a solution to this problem after reading an introductory computer science book. After completing bootcamp I decided to adapt and deploy the solver on Elastic Beanstalk.'
         },
         {
           'name': 'Barz',
