@@ -18,13 +18,13 @@ const Contact = ({contact}) => (
         <span className="contact-content">(604)355-9459</span>
       </div>
     </a>
-    <a href='https://www.github.com/arromeo'>
+    <a href='https://www.github.com/arromeo' target="_blank">
       <div className='contact-line'>
         <GithubIcon />
         <span className="contact-content">arromeo</span>
       </div>
     </a>
-    <a href='https://www.linkedin.com/in/arromeo'>
+    <a href='https://www.linkedin.com/in/arromeo' target="_blank">
       <div className='contact-line'>
         <LinkedInIcon />
         <span className="contact-content">arromeo</span>

@@ -9,14 +9,14 @@ class ResumeContainer extends Component {
     this.state = {
       name: 'Adam Romeo',
       title: 'JR FULLSTACK DEVELOPER',
-      summary: 'Junior web developer with several years of supervisory experience in the auto and logistics industries. I am looking for an opportunity to leverage my passion for diving deep into new subjects and to be a part of a team that will fascilitate both personal and professional growth. My interests as a web developer are to build the products and tools that will make the next generation of technology a possibility.',
+      summary: 'As a junior web developer transitioning from a decade-long career in the logistics industry, finding efficient solutions to technical problems is my specialty. Nothing brings me more joy than diving deep into new topics and quickly putting that knowledge into practice. I\'m passionate about building and supporting products that will make the next generation of technology a reality.',
       projects: [
         {
           'name': 'NuBrew',
           'stack': 'React Native, Expo, AutoML, Express, Knex, PostgresQL',
           'start_date': 'December 2018',
           'end_date': 'Present',
-          'description': 'Asymmetrical poutine you probably haven\'t heard of them locavore messenger bag brunch, hoodie chia. Literally yuccie mlkshk, cliche air plant jean shorts hoodie mixtape twee tilde kale chips plaid viral.'
+          'description': 'NuBrew is a beer rating and recommendation app. We used Google Cloud\'s machine learning platform to make rating beers as easy as taking a photo of its label. The recommendations were generated based off of favorite styles and bitterness and we implemented a store locator based on favorite drinks.'
         },
         {
           'name': 'Mapm',
@@ -54,12 +54,11 @@ class ResumeContainer extends Component {
         'startDate': 'February, 2010',
         'endDate': 'December, 2018',
         'description': [
-          'Developed and adhered to best practices while supervising day-to-day operations.',
-          'Used warehouse management software and Excel/VBA to identify efficiency improvements and discover inventory anomalies.',
-          'Delivered consistently by utilizing my team and resources in a fast paced setting.',
-          'Identified bottle necks and developed a staggered schedule system that reduced overtime by 4 hours per employee per week.',
-          'Created training material and instructed new hires on company procedures.',
-          'Pursued voluntary training opportunities and participated in safety and efficiency meetings to help address operational weaknesses.'
+          'Utilized inventory management software and Excel/VBA to identify potential improvements in opperations efficiency and discover stock-level anomalies.',
+          'Delivered consistent results by effectively deploying my team and resources in a fast paced setting.',
+          'Identified bottlenecks and developed a staggered schedule system that reduced overtime by 33%.',
+          'Created training material and instructed new hires on best practices.',
+          'Pursued voluntary training opportunities and served on safety and productivity committees to help address operational weaknesses.'
         ]
       },
       education: [
