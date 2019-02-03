@@ -275,3 +275,9 @@ a:link, a:visited {
         border-bottom-color: $skill-title-bg-color;
     }
 }
+
+@media print {
+  .resume {
+    flex-direction: column;
+  }
+}
