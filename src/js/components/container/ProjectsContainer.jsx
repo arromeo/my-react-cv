@@ -6,7 +6,7 @@ const ProjectsContainer = ({projects}) => {
     return (<article key={project.name} className="project">
       <div className="project-header">
         <div className="project-left-col">
-          <p>{project.name}</p>
+          <a href={project.link} target="_blank"><span className="project-link">{project.name}</span></a>
         </div>
         <div className="project-right-col">
           <p>{project.start_date} - {project.end_date}</p>

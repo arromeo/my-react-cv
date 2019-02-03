@@ -230,12 +230,23 @@ html, body, .main, #app {
               justify-content: flex-end;
               text-align: right;
             }
+
+            .project-link {
+                border-bottom-style: dotted;
+                border-bottom-color: $sidebar-bg-color;
+                border-bottom-width: 2px;
+
+                &:hover {
+                    color: $skill-title-bg-color;
+                    border-bottom-color: $skill-title-bg-color;
+                }
+            }
           }
 
           .project-stack {
             font-weight: bold;
             font-size: 0.8rem;
-            padding-top: 0.3rem;
+            padding-top: 0.5rem;
             padding-bottom: 0.5rem;
           }
 
@@ -252,4 +263,15 @@ html, body, .main, #app {
 a:link, a:visited {
   color: inherit;
   text-decoration: none;
+}
+
+.inlineLink {
+    color: $sidebar-bg-color !important;
+    border-bottom-style: dotted;
+    border-bottom-color: $sidebar-bg-color;
+    border-bottom-width: 1px;
+    &:hover {
+        color: $skill-title-bg-color !important;
+        border-bottom-color: $skill-title-bg-color;
+    }
 }
