@@ -222,7 +222,11 @@ a:link, a:visited {
     color: #013220 !important;
     border-bottom-color: #013220; }
 
-@media print {
-  .resume {
-    flex-direction: column; } }
+@media screen and (max-height: 925px) {
+  .skill-section-title, .skill-item {
+    font-size: 0.8rem; } }
+
+@media screen and (max-height: 850px) {
+  .skill-section-title, .skill-item {
+    font-size: 0.6rem; } }
 
