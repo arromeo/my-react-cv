@@ -222,3 +222,7 @@ a:link, a:visited {
     color: #013220 !important;
     border-bottom-color: #013220; }
 
+@media print {
+  .resume {
+    flex-direction: column; } }
+

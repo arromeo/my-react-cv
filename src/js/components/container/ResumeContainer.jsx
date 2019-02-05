@@ -22,7 +22,7 @@ class ResumeContainer extends Component {
         {
           'name': 'Ng Tweeter',
           'link': 'https://github.com/arromeo/ng-tweeter',
-          'stack': 'Angular 2, NgRx, RxJS, Express, Knex, PostgresQL',
+          'stack': 'Angular, NgRx, RxJS, Express, Knex, PostgresQL',
           'start_date': 'January 2019',
           'end_date': 'Present',
           'description': 'A recreation of a previous jQuery project, Ng Tweeter is a Twitter clone using the latest version of Angular. NgRx State and Effects were used to handle the app\'s data persistence, JSON Web Tokens for authentication, as well as a RESTful backend using Express.'
@@ -84,7 +84,8 @@ class ResumeContainer extends Component {
         'Languages': [
           'Javascript',
           'Python',
-          'Ruby'
+          'Ruby',
+          'TypeScript'
         ],
         'Front End': [
           'React',
@@ -110,8 +111,7 @@ class ResumeContainer extends Component {
         ],
         'Administrative': [
           'Excel/VBA',
-          'First Aid',
-          'Technical Documentation'
+          'First Aid'
         ]
       },
     };
