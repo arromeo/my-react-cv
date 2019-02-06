@@ -89,7 +89,7 @@ class ResumeContainer extends Component {
         ],
         'Front End': [
           'React',
-	  'Angular',
+	        'Angular',
           'NgRx',
           'jQuery',
           'HTML',
