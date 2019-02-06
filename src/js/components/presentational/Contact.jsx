@@ -5,32 +5,50 @@ import EmailIcon from '../icons/Email.jsx';
 import PhoneIcon from '../icons/Phone.jsx';
 
 const Contact = ({contact}) => (
-  <div className='contact-container'>
+  <div style={styles.contactContainer}>
     <a href='mailto:adam.r.romeo@gmail.com'>
-      <div className='contact-line'>
+      <div className='contact-link' style={styles.contactLink}>
         <EmailIcon />
-        <span className="contact-content">adam.r.romeo@gmail.com</span>
+        <span style={styles.contactContent}>adam.r.romeo@gmail.com</span>
       </div>
     </a>
     <a href='tel:604-355-9459'>
-      <div className='contact-line'>
+      <div className='contact-link' style={styles.contactLink}>
         <PhoneIcon />
-        <span className="contact-content">(604)355-9459</span>
+        <span style={styles.contactContent}>(604)355-9459</span>
       </div>
     </a>
     <a href='https://www.github.com/arromeo' target="_blank">
-      <div className='contact-line'>
+      <div className='contact-link' style={styles.contactLink}>
         <GithubIcon />
-        <span className="contact-content">arromeo</span>
+        <span style={styles.contactContent}>arromeo</span>
       </div>
     </a>
     <a href='https://www.linkedin.com/in/arromeo' target="_blank">
-      <div className='contact-line'>
+      <div className='contact-link' style={styles.contactLink}>
         <LinkedInIcon />
-        <span className="contact-content">arromeo</span>
+        <span style={styles.contactContent}>arromeo</span>
       </div>
     </a>
   </div>
 )
+
+const styles = {
+  contactContainer: {
+    marginLeft: '20px',
+    padding: '5px 0px',
+    color: '#FFFFFF',
+    fill: '#FFFFFF'
+  },
+  contactLink: {
+    display: 'inline-flex',
+    marginRight: '20px',
+    alignItems: 'center'
+  },
+  contactContent: {
+    marginLeft: '5px',
+    fontFamily: '"Roboto Slab", serif'
+  }
+}
 
 export default Contact;
