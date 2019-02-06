@@ -15,29 +15,8 @@ html, body, .main, #app {
   font-size: 18px;
 }
 
-.icon {
-  fill: $sidebar-text-color;
-}
-
-.contact-link:hover {
-  color: $sidebar-text-hover;
-  
-  .icon {
-    fill: $sidebar-text-hover;
-  }
-}
-
 .resume {
-  display: flex;
-  flex-direction: column;
-  height: 100%;
-
   .sidebar {
-    // TODO: Break the icons and contact info into their own components so
-    // styles can be placed in the components rather than here.
-
-
-
     .skills-container {
 
       .skill-section {
@@ -57,77 +36,60 @@ html, body, .main, #app {
           margin: 4px 0px 0px 0px;
           padding-left: 20px;
           font-family: $sans-serif-font;
-          color: $sidebar-text-color;
+          color: $sidebar-text-color;  display: flex;
+          flex-direction: column;
+          height: 100%;
         }
       }
     }
   }
 
   .resume-body {
-    
+
     .column {
       flex: 1;
       padding: 3rem;
 
       .section-container {
-        padding: 0px;
-        margin-bottom: 2rem;
-
-        .section-title {
-          font-family: $serif-font;
-          font-weight: bold;
-          font-size: 1.2rem;
-          line-height: 1.5rem;
-          border-bottom-style: solid;
-          border-bottom-width: 3px;
-          border-bottom-color: $sidebar-bg-color;
-        }
-
-        .section-content {
-          font-family: $sans-serif-font;
-          margin-top: 1rem;
-          line-height: 1.3rem;
-          text-align: justify;
-        }
 
         .experience-description {
           font-family: $sans-serif-font;
         }
 
-        .experience-list {
-          margin-top: 1rem;
-          margin-left: 1.2rem;
-          line-height: 1.3rem;
-          text-align: justify;
-        }
-        .experience-container {
-          display: flex;
-          margin-top: 1rem;
+        // .experience-list {
+        //   margin-top: 1rem;
+        //   margin-left: 1.2rem;
+        //   line-height: 1.3rem;
+        //   text-align: justify;
+        // }
+        // .experience-container {
+        //   display: flex;
+        //   margin-top: 1rem;
 
-          .experience-right-col {
-            flex: 0.5;
-            justify-content: flex-end;
-            text-align: right;
-          }
+        //   .experience-right-col {
+        //     flex: 0.5;
+        //     justify-content: flex-end;
+        //     text-align: right;
+        //   }
 
-          .experience-left-col {
-            flex: 0.5;
-          }
+        //   .experience-left-col {
+        //     flex: 0.5;
+        //   }
 
-          .experience-company {
-            font-family: $sans-serif-font;
-            font-weight: bold;
-            margin: 0px;
-          }
+        //   .experience-company {
+        //     font-family: $sans-serif-font;
+        //     font-weight: bold;
+        //     margin: 0px;
+        //   }
 
-          .experience-content {
-            font-family: $sans-serif-font;
-            font-size: 0.8rem;
-            padding-top: 0.2rem;
-            margin: 0px;
-          }
+        //   .experience-content {
+        //     font-family: $sans-serif-font;
+        //     font-size: 0.8rem;
+        //     padding-top: 0.2rem;
+        //     margin: 0px;
+        //   }
 
-        }
+        // }
 
         .education-container {
           margin-top: 1rem;

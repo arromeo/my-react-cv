@@ -1,9 +1,10 @@
 import React, { Component } from "react";
+import * as sectionStyles from './Section.module.scss';
 
 const SummaryContainer = ({summary}) => (
-  <div className="section-container">
-    <p className='section-title'>Summary</p>
-    <p className='section-content'>{summary}</p>
+  <div className={sectionStyles.sectionContainer}>
+    <p className={sectionStyles.sectionTitle}>Summary</p>
+    <p className={sectionStyles.sectionContent}>{summary}</p>
   </div>
 )
 

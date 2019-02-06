@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import * as sectionStyles from './Section.module.scss';
 
 const ProjectsContainer = ({projects}) => {
 
@@ -18,8 +19,8 @@ const ProjectsContainer = ({projects}) => {
   });
 
   return (
-    <div className="section-container">
-      <p className="section-title">Projects</p>
+    <div className={sectionStyles.sectionContainer}>
+      <p className={sectionStyles.sectionTitle}>Projects</p>
       <div className="projects-container">
         {formattedProjects}
       </div>

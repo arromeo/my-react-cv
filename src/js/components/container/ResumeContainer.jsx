@@ -1,7 +1,8 @@
 import React, { Component } from "react";
 import ReactDOM from "react-dom";
-import SidebarContainer from './SidebarContainer.jsx';
+import TopbarContainer from './TopbarContainer.jsx';
 import BodyContainer from './BodyContainer.jsx';
+import styles from './Resume.module.scss';
 
 class ResumeContainer extends Component {
   constructor() {
@@ -119,8 +120,8 @@ class ResumeContainer extends Component {
 
   render() {
     return (
-      <div className='resume'>
-        <SidebarContainer
+      <div className={styles.resume}>
+        <TopbarContainer
           name={this.state.name}
           title={this.state.title}
           skills={this.state.skills} />

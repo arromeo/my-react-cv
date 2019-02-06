@@ -4,8 +4,10 @@ import ProjectsContainer from './ProjectsContainer.jsx';
 import ExperienceContainer from './ExperienceContainer.jsx';
 import EducationContainer from './EducationContainer.jsx';
 
+import styles from './Body.module.scss';
+
 const BodyContainer = ({summary, experience, education, projects}) => (
-  <div className="resume-body" style={styles.resumeBody}>
+  <div className={styles.resumeBody}>
     <div className='column'>
       <SummaryContainer summary={summary} />
       <ExperienceContainer experience={experience} />
@@ -16,12 +18,5 @@ const BodyContainer = ({summary, experience, education, projects}) => (
     </div>
   </div>
 )
-
-const styles = {
-  resumeBody: {
-    display: 'flex',
-    flex: 1
-  }
-}
 
 export default BodyContainer;

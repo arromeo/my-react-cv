@@ -3,19 +3,14 @@ import Nameplate from '../presentational/Nameplate.jsx';
 import SkillsContainer from './SkillsContainer.jsx';
 import Contact from '../presentational/Contact.jsx';
 
-const SidebarContainer = ({name, title, skills}) => (
-  <div style={styles.sidebar}>
+import styles from './Topbar.module.scss';
+
+const TopbarContainer = ({name, title, skills}) => (
+  <div className={styles.sidebar}>
     <Nameplate name={name} title={title} />
     <Contact />
     {/* <SkillsContainer skills={skills} /> */}
   </div>
 )
 
-const styles = {
-  sidebar: {
-    backgroundColor: '#228B22',
-    width: '100%'
-  }
-}
-
-export default SidebarContainer;
+export default TopbarContainer;

@@ -1,23 +1,25 @@
 import React, { Component } from "react";
+import * as sectionStyles from './Section.module.scss';
+import styles from './Experience.module.scss';
 
 const ExperienceContainer = ({experience}) => {
  
   const experienceList = experience.description.map(item => (<li key={item} className='experience-description'>{item}</li>));
 
   return (
-    <div className="section-container">
-      <p className='section-title'>Experience</p>
-      <div className='experience-container'>
-        <div className='experience-left-col'>
-          <p className='experience-company'>{experience.company}</p>
-          <p className='experience-content'>{experience.title}</p>
+    <div className={sectionStyles.sectionContainer}>
+      <p className={sectionStyles.sectionTitle}>Experience</p>
+      <div className={styles.container}>
+        <div className={styles.leftCol}>
+          <p className={styles.company}>{experience.company}</p>
+          <p className={styles.content}>{experience.title}</p>
         </div>
-        <div className='experience-right-col'>
-          <p className='experience-content'>{experience.startDate} to {experience.endDate}</p>
-          <p className='experience-content'>{experience.location}</p>
+        <div className={styles.rightCol}>
+          <p className={styles.content}>{experience.startDate} to {experience.endDate}</p>
+          <p className={styles.content}>{experience.location}</p>
         </div>
       </div>
-      <ul className='experience-list'>
+      <ul className={styles.list}>
         {experienceList}
       </ul>
     </div>

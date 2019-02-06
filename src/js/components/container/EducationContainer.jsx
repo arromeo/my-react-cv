@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import * as sectionStyles from './Section.module.scss';
 
 const EducationContainer = ({education}) => {
   const educationList = education.map(item => {
@@ -20,8 +21,8 @@ const EducationContainer = ({education}) => {
   console.log(education);
 
   return (
-    <div className="section-container">
-      <p className="section-title">Education</p>
+    <div className={sectionStyles.sectionContainer}>
+      <p className={sectionStyles.sectionTitle}>Education</p>
       <div className="education-container">
         {educationList}
       </div>

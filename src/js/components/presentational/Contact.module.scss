@@ -1,0 +1,30 @@
+
+.contactContainer {
+  margin-left: 20px;
+  padding: 5px 0px;
+  color: #FFFFFF;
+  fill: #FFFFFF;
+}
+
+.contactLink {
+  display: inline-flex;
+  margin-right: 20px;
+  align-items: center;
+  
+  &:hover {
+    color: #013220;
+
+    .icon {
+      fill: #013220;
+    }
+  }
+}
+
+.contactContent {
+  margin-left: 5px;
+  font-family: 'Roboto Slab', serif;
+}
+
+.icon {
+  fill: #FFFFFF;
+}
