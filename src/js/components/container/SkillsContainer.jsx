@@ -5,7 +5,9 @@ import * as sectionStyles from './Section.module.scss';
 const SkillsContainer = ({skills}) => (
   <div className={sectionStyles.sectionContainer}>
     <p className={sectionStyles.sectionTitle}>Skills</p>
-    <SkillsList skills={skills} />
+    <div className={sectionStyles.sectionContent}>
+      <SkillsList skills={skills} />
+    </div>
   </div>
 )
 

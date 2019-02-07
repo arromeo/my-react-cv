@@ -1,4 +1,6 @@
 .namePlate {
+  display: flex;
+  flex-direction: column;
   margin: 0.8rem 0rem 0.4rem 0.4rem;
 }
 
@@ -16,4 +18,10 @@
   font-size: 1.3rem;
   color: #FFFFFF;
   margin: 0.0rem 0.4rem 0.4rem 0rem;
+}
+
+@media screen and (max-width: 1200px) {
+  .namePlate {
+    align-items: center;
+  }
 }
