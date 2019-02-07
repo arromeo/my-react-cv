@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import Nameplate from '../presentational/Nameplate.jsx';
-import SkillsContainer from './SkillsContainer.jsx';
 import Contact from '../presentational/Contact.jsx';
 
 import styles from './Topbar.module.scss';

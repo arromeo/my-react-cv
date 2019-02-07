@@ -27,7 +27,7 @@ const SkillsList = ({skills}) => {
   }
 
   return (
-    <div className={sectionStyles.sectionContent}>
+    <div>
       {formattedSections}
     </div>
   )
