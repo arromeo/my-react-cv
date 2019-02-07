@@ -54,12 +54,3 @@ a:link, a:visited {
   color: inherit;
   text-decoration: none;
 }
-
-@media screen and (max-height: 925px) {
-  .skill-section-title, .skill-item {
-    font-size: 0.8rem; } }
-
-@media screen and (max-height: 850px) {
-  .skill-section-title, .skill-item {
-    font-size: 0.6rem; } }
-
