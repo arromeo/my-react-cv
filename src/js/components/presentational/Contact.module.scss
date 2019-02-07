@@ -1,14 +1,12 @@
 
 .contactContainer {
-  margin-left: 20px;
-  padding: 5px 0px;
   color: #FFFFFF;
   fill: #FFFFFF;
 }
 
 .contactLink {
   display: inline-flex;
-  margin-right: 20px;
+  margin-left: 20px;
   align-items: center;
   
   &:hover {
@@ -27,4 +25,21 @@
 
 .icon {
   fill: #FFFFFF;
+}
+
+@media screen and (max-width: 1200px) {
+  .contactContainer {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+  }
+  .contactLink {
+    margin-left: 0px;
+  }
+}
+
+@media screen and (max-width: 1332px) {
+  .contactContent {
+    display: none;
+  }
 }

@@ -4,7 +4,7 @@ import styles from './Experience.module.scss';
 
 const ExperienceContainer = ({experience}) => {
  
-  const experienceList = experience.description.map(item => (<li key={item} className='experience-description'>{item}</li>));
+  const experienceList = experience.description.map(item => (<li key={item} className={styles.description}>{item}</li>));
 
   return (
     <div className={sectionStyles.sectionContainer}>

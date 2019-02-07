@@ -6,10 +6,11 @@ import Contact from '../presentational/Contact.jsx';
 import styles from './Topbar.module.scss';
 
 const TopbarContainer = ({name, title, skills}) => (
-  <div className={styles.sidebar}>
-    <Nameplate name={name} title={title} />
-    <Contact />
-    {/* <SkillsContainer skills={skills} /> */}
+  <div className={styles.topbar}>
+    <div className={styles.header}>
+      <Nameplate name={name} title={title} />
+      <Contact />
+    </div>
   </div>
 )
 

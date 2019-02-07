@@ -1,4 +1,49 @@
 .resumeBody {
   display: flex;
+  width: 70%;
+}
+
+.leftCol {
   flex: 1;
+  padding: 3rem 3rem 0rem 0rem;
+}
+
+.rightCol {
+  flex: 1;
+  padding: 3rem 0rem 0rem 3rem;
+}
+
+.oneCol {
+  display: none;
+}
+
+@media screen and (max-width: 1200px) {
+  .resumeBody {
+    width: 90%;
+  }
+  .oneCol {
+    display: inherit;
+  }
+
+  .leftCol {
+    padding: 2rem 0rem 0rem 0rem;
+  }
+
+  .rightCol {
+    display: none;
+  }
+}
+
+@media print {
+  .resumeBody {
+    width: 100%;
+  }
+
+  .leftCol {
+    padding: 0rem 0.5rem 0rem 0rem;
+  }
+
+  .rightCol {
+    padding: 0rem 0rem 0.5rem 0rem;
+  }
 }

@@ -58,7 +58,7 @@ class ResumeContainer extends Component {
         'title': 'Warehouse Supervisor',
         'location': 'Pitt Meadows, BC',
         'startDate': 'February, 2010',
-        'endDate': 'December, 2018',
+        'endDate': 'Present',
         'description': [
           'Utilized inventory management software and Excel/VBA to identify potential improvements in operations efficiency and discover stock-level anomalies.',
           'Delivered consistent results by effectively deploying my team and resources in a fast paced setting.',
@@ -72,7 +72,7 @@ class ResumeContainer extends Component {
           'institution': 'Lighthouse Labs',
           'credential': 'Web Development Diploma',
           'start_date': 'October 2018',
-          'end_date': 'January 2018'
+          'end_date': 'January 2019'
         },
         {
           'institution': 'St. John Ambulance',
@@ -123,13 +123,13 @@ class ResumeContainer extends Component {
       <div className={styles.resume}>
         <TopbarContainer
           name={this.state.name}
-          title={this.state.title}
-          skills={this.state.skills} />
+          title={this.state.title} />
         <BodyContainer
           summary={this.state.summary}
           projects={this.state.projects}
           experience={this.state.experience}
-          education={this.state.education} />
+          education={this.state.education}
+          skills={this.state.skills} />
       </div>
     );
   }

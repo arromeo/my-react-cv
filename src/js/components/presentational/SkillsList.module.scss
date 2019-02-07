@@ -1,0 +1,19 @@
+$sans-serif-font: 'Lato', sans-serif;
+
+.container {
+
+}
+
+.section {
+  padding: 10px;
+}
+
+.title {
+  font-weight: bold;
+  font-family: $sans-serif-font;
+}
+
+.item {
+  font-family: $sans-serif-font;
+  line-height: 1.5rem;
+}

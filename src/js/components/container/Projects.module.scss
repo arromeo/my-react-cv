@@ -1,0 +1,55 @@
+$serif-font: 'Roboto Slab', serif;
+$sans-serif-font: 'Lato', sans-serif;
+$sidebar-text-color: #FFFFFF;
+$sidebar-text-hover: #013220;
+$sidebar-bg-color: #228B22;
+$skill-title-bg-color: #013220;
+
+.container {
+  margin-top: 1rem;
+}
+
+.project {
+    font-family: $sans-serif-font;
+    margin-bottom: 1.5rem;
+}
+
+.header {
+  display: flex;
+}
+
+.leftCol {
+  flex: 0.5;
+  font-weight: bold;
+  color: $sidebar-bg-color;
+}
+
+.rightCol {
+  flex: 0.5;
+  font-size: 0.8rem;
+  justify-content: flex-end;
+  text-align: right;
+}
+
+.link {
+  border-bottom-style: dotted;
+  border-bottom-color: $sidebar-bg-color;
+  border-bottom-width: 2px;
+
+  &:hover {
+      color: $skill-title-bg-color;
+      border-bottom-color: $skill-title-bg-color;
+  }
+}
+
+.stack {
+font-weight: bold;
+font-size: 0.8rem;
+padding-top: 0.5rem;
+padding-bottom: 0.5rem;
+}
+
+.description {
+text-align: justify;
+line-height: 1.3rem;
+}
