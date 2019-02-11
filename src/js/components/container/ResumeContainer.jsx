@@ -34,7 +34,7 @@ class ResumeContainer extends Component {
           'stack': 'Python, Flask, AWS (Elastic Beanstalk), Data Structures',
           'start_date': 'June 2018',
           'end_date': 'Present',
-          'description': 'A Sudoku puzzle solver that completes the most difficult puzzles in an average of 50 milliseconds. Originally developed as a small personal project, I later adapted it into a Flask app that was deployed on Elastic Beanstalk.'
+          'description': (<span>A Sudoku puzzle solver that completes the most difficult puzzles in an average of 50 milliseconds. Originally developed as a small personal project, I later adapted it into a Flask app that was <a style={{color: "green"}} href="http://flask-env.mheyxp8zdp.us-west-2.elasticbeanstalk.com/" target="_blank">deployed on Elastic Beanstalk.</a></span>)
         },
         {
           'name': 'Mapm',
@@ -50,7 +50,7 @@ class ResumeContainer extends Component {
           'stack': 'jQuery, CSS, HTML',
           'start_date': 'August 2018',
           'end_date': 'October 2018',
-          'description': (<span>A bar chart creation and customisation library. As a drop-in JavaScript library, this was built using jQuery's DOM manipulation methods. To make the project more accessible, I created a <a className="inlineLink" href="https://arromeo.github.io/barz/" target="_blank">documentation website</a> that catalogues all available options.</span>)
+          'description': (<span>A bar chart creation and customisation library. As a drop-in JavaScript library, this was built using jQuery's DOM manipulation methods. To make the project more accessible, I created a <a style={{color: "green"}} href="https://arromeo.github.io/barz/" target="_blank">documentation website</a> that catalogues all available options.</span>)
         }
       ],
       experience: {
