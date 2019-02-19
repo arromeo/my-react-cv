@@ -38,7 +38,7 @@ class ResumeContainer extends Component {
         },
         {
           'name': 'Mapm',
-          'link': 'https://github.com/Jesswinters/mapm',
+          'link': 'https://github.com/arromeo/mapm',
           'stack': 'Node, Express, Handlebars, PostgreSQL, Knex, jQuery, Ajax, Sass, REST',
           'start_date': 'November 2018',
           'end_date': 'December 2018',
