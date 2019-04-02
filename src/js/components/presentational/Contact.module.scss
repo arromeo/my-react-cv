@@ -6,6 +6,7 @@
 
 .contactLink {
   display: inline-flex;
+  color: #FFFFFF;
   margin-left: 20px;
   align-items: center;
   
@@ -15,11 +16,16 @@
     .icon {
       fill: #013220;
     }
+
+    .contactContent {
+      color: #013220;
+    }
   }
 }
 
 .contactContent {
   margin-left: 5px;
+  color: #FFFFFF;
   font-family: 'Roboto Slab', serif;
 }
 
@@ -41,5 +47,17 @@
 @media screen and (max-width: 1332px) {
   .contactContent {
     display: none;
+  }
+}
+
+@media print {
+  .contactContainer {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+  }
+  
+  .contactLink {
+    margin-left: 0px;
   }
 }

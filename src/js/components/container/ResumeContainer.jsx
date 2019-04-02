@@ -10,36 +10,36 @@ class ResumeContainer extends Component {
     this.state = {
       name: 'Adam Romeo',
       title: 'JUNIOR WEB DEVELOPER',
-      summary: 'As a junior web developer transitioning from a decade-long career in the logistics industry, finding efficient solutions to technical problems is my specialty. Nothing brings me more joy than diving deep into new topics and quickly putting that knowledge into practice. I\'m passionate about building and supporting products that will make the next generation of technology a reality.',
+      summary: 'An energetic and creative junior web developer who enjoys finding efficient solutions to technical problems. Passionate about building and supporting products that will make the next generation of technology a reality. Recent projects and interests have revolved around static-site generation and hosting with Gatsby, Netlify and headless-CMS.',
       projects: [
         {
           'name': 'NuBrew',
           'link': 'https://github.com/arromeo/nubrew',
           'stack': 'React Native, Expo, AutoML, Express, Knex, PostgresQL',
           'start_date': 'December 2018',
-          'end_date': 'Present',
-          'description': 'NuBrew is a beer rating and recommendation app. We used Google Cloud\'s machine learning platform to make rating beers as easy as taking a photo of its label. The recommendations were generated based off of favorite styles and bitterness and we implemented a store locator based on favourite drinks.'
+          'end_date': 'January 2019',
+          'description': 'A mobile beer rating and recommendation app that makes rating as easy as taking a photo of the label. We used thousands of beer label images to create our machine learning models and predictions were made by sending the image data to the AutoML API.'
         },
         {
-          'name': 'Ng Tweeter',
-          'link': 'https://github.com/arromeo/ng-tweeter',
-          'stack': 'Angular, NgRx, RxJS, Express, Knex, PostgresQL',
-          'start_date': 'January 2019',
+          'name': 'Romeo\'s Rat Pack Rattery',
+          'link': 'https://github.com/arromeo/rrp',
+          'stack': 'Gatsby, React, GraphQL, Styled Components',
+          'start_date': 'March 2019',
           'end_date': 'Present',
-          'description': 'A recreation of a previous jQuery project, Ng Tweeter is a Twitter clone using the latest version of Angular. NgRx State and Effects were used to handle the app\'s data persistence, JSON Web Tokens for authentication, as well as a RESTful backend using Express.'
+          'description': (<span>A Gatsby generated website for a small show rat breeding business. The individual pages for rats included developing custom plug-ins to generate GraphQL from unsupported data formats, and the blog section was setup to run off of Markdown files for easy maintainability. The site is currently being developed but can be viewed <a href="https://arromeo.github.io/rrp/" target="_blank">here.</a></span>)
         },
         {
           'name': 'Sudoku Solver',
           'link': 'https://github.com/arromeo/sudoku-solver',
-          'stack': 'Python, Flask, AWS (Elastic Beanstalk), Data Structures',
+          'stack': 'Python, Flask, AWS Elastic Beanstalk',
           'start_date': 'June 2018',
-          'end_date': 'Present',
-          'description': (<span>A Sudoku puzzle solver that completes the most difficult puzzles in an average of 50 milliseconds. Originally developed as a small personal project, I later adapted it into a Flask app that was <a style={{color: "green"}} href="http://flask-env.mheyxp8zdp.us-west-2.elasticbeanstalk.com/" target="_blank">deployed on Elastic Beanstalk.</a></span>)
+          'end_date': 'January 2018',
+          'description': (<span>A Sudoku puzzle solver that completes the most difficult puzzles in an average of 50 milliseconds. Originally developed as a small personal project, I later adapted it into a Flask app that was <a href="http://flask-env.mheyxp8zdp.us-west-2.elasticbeanstalk.com/" target="_blank">deployed on Elastic Beanstalk.</a></span>)
         },
         {
           'name': 'Mapm',
           'link': 'https://github.com/Jesswinters/mapm',
-          'stack': 'Node, Express, Handlebars, PostgreSQL, Knex, jQuery, Ajax, Sass, REST',
+          'stack': 'Node, Express, Handlebars, PostgreSQL, Knex, jQuery, Sass',
           'start_date': 'November 2018',
           'end_date': 'December 2018',
           'description': 'Mapm is a publicly moderated map making app. My role in this group project consisted of handling the initial database migrations, composing queries and routes  to connect the database with the front-end and contributing to the integration of the Google Places and Maps APIs.'
@@ -47,10 +47,10 @@ class ResumeContainer extends Component {
         {
           'name': 'Barz',
           'link': 'https://github.com/arromeo/barz',
-          'stack': 'jQuery, CSS, HTML',
+          'stack': 'jQuery, JavaScript, CSS, HTML',
           'start_date': 'August 2018',
           'end_date': 'October 2018',
-          'description': (<span>A bar chart creation and customisation library. As a drop-in JavaScript library, this was built using jQuery's DOM manipulation methods. To make the project more accessible, I created a <a style={{color: "green"}} href="https://arromeo.github.io/barz/" target="_blank">documentation website</a> that catalogues all available options.</span>)
+          'description': (<span>A bar chart creation and customization library. Built using jQuery and JS, Barz is a true plug-and-play script that is very fast and easy to put into any existing project. To make the project more accessible, I created a <a href="https://arromeo.github.io/barz/" target="_blank">documentation website</a> that catalogues all available options.</span>)
         }
       ],
       experience: {
@@ -93,7 +93,6 @@ class ResumeContainer extends Component {
 	        'Angular',
           'NgRx',
           'jQuery',
-          'HTML',
           'CSS/SCSS',
           'EJS'
         ],
@@ -106,6 +105,7 @@ class ResumeContainer extends Component {
           'Ruby on Rails',
         ],
         'Other': [
+          'Gatsby',
           'Webpack',
           'React Native',
           'Rspec',

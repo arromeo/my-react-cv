@@ -17,6 +17,16 @@ html, body, .main, #app {
 
 //TODO: This one might be a bit tricky to put in CSS module.
 a:link, a:visited {
-  color: inherit;
+  color: $sidebar-bg-color;
   text-decoration: none;
+}
+
+@media print {
+  html, body, .main, #app {
+    font-size: 4mm;
+  }
+
+  a:link, a:visited {
+    color: black;
+  }
 }

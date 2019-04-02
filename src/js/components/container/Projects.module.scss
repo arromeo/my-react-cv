@@ -53,3 +53,9 @@ padding-bottom: 0.5rem;
 text-align: justify;
 line-height: 1.3rem;
 }
+
+@media print {
+  .link {
+    border-bottom-style: none;
+  }
+}

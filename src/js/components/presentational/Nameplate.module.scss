@@ -25,3 +25,17 @@
     align-items: center;
   }
 }
+
+@media print {
+  .namePlate {
+    align-items: center;
+  }
+
+  .name {
+    font-size: 10mm;
+  }
+
+  .title {
+    font-size: 5mm;
+  }
+}
