@@ -9,8 +9,8 @@ class ResumeContainer extends Component {
     super();
     this.state = {
       name: 'Adam Romeo',
-      title: 'JUNIOR WEB DEVELOPER',
-      summary: 'An energetic and creative junior web developer who enjoys finding efficient solutions to technical problems. Passionate about building and supporting products that will make the next generation of technology a reality. Recent projects and interests have revolved around static-site generation and hosting with Gatsby, Netlify and headless-CMS.',
+      title: 'WEB DEVELOPER',
+      summary: 'An energetic and creative web developer who enjoys finding efficient solutions to technical problems. Passionate about building and supporting products that will make the next generation of technology a reality. Recent projects and interests have revolved around the static site generator Gatsby as well as updating all of my projects with TypeScript and OOP patterns.',
       projects: [
         {
           'name': 'NuBrew',
@@ -58,7 +58,7 @@ class ResumeContainer extends Component {
         'title': 'Warehouse Supervisor',
         'location': 'Pitt Meadows, BC',
         'startDate': 'February, 2010',
-        'endDate': 'Present',
+        'endDate': 'May, 2019',
         'description': [
           'Utilized inventory management software and Excel/VBA to identify potential improvements in operations efficiency and discover stock-level anomalies.',
           'Delivered consistent results by effectively deploying my team and resources in a fast paced setting.',
@@ -84,14 +84,12 @@ class ResumeContainer extends Component {
       skills: {
         'Languages': [
           'Javascript',
+          'TypeScript',
           'Python',
-          'Ruby',
-          'TypeScript'
+          'Ruby'
         ],
         'Front End': [
           'React',
-	        'Angular',
-          'NgRx',
           'jQuery',
           'CSS/SCSS',
           'EJS'
@@ -103,12 +101,14 @@ class ResumeContainer extends Component {
           'NoSQL',
           'Knex',
           'Ruby on Rails',
+          'Nginx'
         ],
         'Other': [
           'Gatsby',
           'Webpack',
           'React Native',
           'Rspec',
+          'Jest'
         ],
         'Administrative': [
           'Excel/VBA',
