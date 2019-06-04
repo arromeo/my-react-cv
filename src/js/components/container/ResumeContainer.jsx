@@ -21,20 +21,20 @@ class ResumeContainer extends Component {
           'description': 'A mobile beer rating and recommendation app that makes rating as easy as taking a photo of the label. We used thousands of beer label images to create our machine learning models and predictions were made by sending the image data to the AutoML API.'
         },
         {
+          'name': 'TypeScript Sudoku Solver',
+          'link': 'https://github.com/arromeo/ts-sudoku-solver',
+          'stack': 'TypeScript, React',
+          'start_date': 'May 2019',
+          'end_date': 'June 2019',
+          'description': (<span>A Sudoku puzzle solver built in TypeScript. This was a re-iteration of a previous project built in Python. My goals for this project were to practice TypeScript, to build a better understanding of OOP principles, and to improve the overall design of the previous solution. The project is published on <a href="https://arromeo.github.io/ts-sudoku-solver/" target="_blank">Github Pages</a>.</span>)
+        },
+        {
           'name': 'Romeo\'s Rat Pack Rattery',
           'link': 'https://github.com/arromeo/rrp',
           'stack': 'Gatsby, React, GraphQL, Styled Components',
           'start_date': 'March 2019',
           'end_date': 'Present',
           'description': (<span>A Gatsby generated website for a small show rat breeding business. The individual pages for rats included developing custom plug-ins to generate GraphQL from unsupported data formats, and the blog section was setup to run off of Markdown files for easy maintainability. The site is currently being developed but can be viewed <a href="https://arromeo.github.io/rrp/" target="_blank">here.</a></span>)
-        },
-        {
-          'name': 'Sudoku Solver',
-          'link': 'https://github.com/arromeo/sudoku-solver',
-          'stack': 'Python, Flask, AWS Elastic Beanstalk',
-          'start_date': 'June 2018',
-          'end_date': 'January 2018',
-          'description': (<span>A Sudoku puzzle solver that completes the most difficult puzzles in an average of 50 milliseconds. Originally developed as a small personal project, I later adapted it into a Flask app that was <a href="http://flask-env.mheyxp8zdp.us-west-2.elasticbeanstalk.com/" target="_blank">deployed on Elastic Beanstalk.</a></span>)
         },
         {
           'name': 'Mapm',
