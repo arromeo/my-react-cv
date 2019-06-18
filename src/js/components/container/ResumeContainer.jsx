@@ -10,15 +10,15 @@ class ResumeContainer extends Component {
     this.state = {
       name: 'Adam Romeo',
       title: 'WEB DEVELOPER',
-      summary: 'An energetic and creative web developer who enjoys finding efficient solutions to technical problems. Passionate about building and supporting products that will make the next generation of technology a reality. Recent projects and interests have revolved around the static site generator Gatsby as well as updating all of my projects with TypeScript and OOP patterns.',
+      summary: 'Energetic and creative web developer able to build full-stack applications in the .NET and JavaScript ecosystems. Comfortable working with back-end technologies such as servers, databases and cloud architectures, as well as front-end frameworks like React, SCSS and TypeScript. Exceptional research, practical and time-management skills as exhibited in my ability to learn and build with new technologies outside a classroom setting. Excited to add value to a team and continue growing.',
       projects: [
         {
-          'name': 'NuBrew',
-          'link': 'https://github.com/arromeo/nubrew',
-          'stack': 'React Native, Expo, AutoML, Express, Knex, PostgresQL',
-          'start_date': 'December 2018',
-          'end_date': 'January 2019',
-          'description': 'A mobile beer rating and recommendation app that makes rating as easy as taking a photo of the label. We used thousands of beer label images to create our machine learning models and predictions were made by sending the image data to the AutoML API.'
+          'name': 'ShrtLnks',
+          'link': 'https://github.com/arromeo/ShrtLnks',
+          'stack': 'ASP.NET Core, C#, Razor, Entity Framework Core',
+          'start_date': 'June 2019',
+          'end_date': 'Present',
+          'description': 'A link shortening service built using MVC. The goal of this project was to explore ASP.NET Core and to further my understand of OOP patterns and how they\'re used to develop back-ends.'
         },
         {
           'name': 'TypeScript Sudoku Solver',
@@ -29,12 +29,12 @@ class ResumeContainer extends Component {
           'description': (<span>A Sudoku puzzle solver built in TypeScript. This was a re-iteration of a previous project built in Python. My goals for this project were to practice TypeScript, to build a better understanding of OOP principles, and to improve the overall design of the previous solution. The project is published on <a href="https://arromeo.github.io/ts-sudoku-solver/" target="_blank">Github Pages</a>.</span>)
         },
         {
-          'name': 'Romeo\'s Rat Pack Rattery',
-          'link': 'https://github.com/arromeo/rrp',
-          'stack': 'Gatsby, React, GraphQL, Styled Components',
-          'start_date': 'March 2019',
-          'end_date': 'Present',
-          'description': (<span>A Gatsby generated website for a small show rat breeding business. The individual pages for rats included developing custom plug-ins to generate GraphQL from unsupported data formats, and the blog section was setup to run off of Markdown files for easy maintainability. The site is currently being developed but can be viewed <a href="https://arromeo.github.io/rrp/" target="_blank">here.</a></span>)
+          'name': 'NuBrew',
+          'link': 'https://github.com/arromeo/nubrew',
+          'stack': 'React Native, Expo, AutoML, Express, Knex, PostgresQL',
+          'start_date': 'December 2018',
+          'end_date': 'January 2019',
+          'description': 'A mobile beer rating and recommendation app that makes rating as easy as taking a photo of the label. We used thousands of beer label images to create our machine learning models and predictions were made by sending the image data to the AutoML API.'
         },
         {
           'name': 'Mapm',
@@ -86,6 +86,7 @@ class ResumeContainer extends Component {
           'Javascript',
           'TypeScript',
           'Python',
+          'C#',
           'Ruby'
         ],
         'Front End': [
@@ -97,6 +98,7 @@ class ResumeContainer extends Component {
         'Back End': [
           'Node',
           'Express',
+          'ASP.NET',
           'SQL',
           'NoSQL',
           'Knex',
